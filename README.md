@@ -1,101 +1,10 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/hana-ml-py-codejam)](https://api.reuse.software/info/github.com/SAP-samples/hana-ml-py-codejam)
-
 # CodeJam - Getting Started with Machine Learning using SAP HANA and Python
 
 ## Description
 
-This repository contains the material for the CodeJam on "Getting Started with Machine Learning using SAP HANA and Python".
+This repository contains the material for the INNOV8ION DAY on SAP & Machine Learning.
 
-In this CodeJam you will learn how the Machine Learning process develops using a Python Client for SAP HANA.
-
-![Overview](exercises/00-setup/img/overview.png)
-
-## To Do - INNOV8iON Day
-- Theorie
-    - [ ] PowerPoint presentatie maken
-- Demo
-    - [ ] Draaiboek uitwerken (wat willen we laten zien?)
-    - [ ] Voorbeeld model trainen met acceptabele nauwkeurigheid
-        - [ ] Model exporteren (design-time artefacts zijn gegenereerd)
-    - [ ] Demo CAP app opzetten
-        - [X] Uitzoeken hoe ML model gebruikt kan worden in een (Fiori) app
-        - [ ] Importeer en configureer ML model in de app
-        - [ ] Fiori view maken om het model aan te roepen
-- HANA Instance opzetten
-    - [X] Free Tier fixen
-    - [X] Instantie aanmaken en deployen
-    - [X] Tabellen definiëren
-    - [X] PAL aanzetten
-    - [ ] Users opzetten voor toegang
-     - [X] Uitzoeken rollen (access_role & AFL__SYS_AFL_AFLPAL_EXECUTE_WITH_GRANT_OPTION)
-     - [X] Testgebruikers (INNOV8ION_USER1, _USER2)
-     - [ ] Gebruikers voor alle deelnemers
-- Dataset voorbereiden
-    - Bron: https://www.kaggle.com/competitions/titanic/data
-    - [X] CSV bestanden omzetten naar SQL insert statements (ChatGPT)
-    - [X] Data inladen in HANA
-    - [X] TITANIC_TRUTH dataset (ground truth)
-    - [ ] Optioneel: Dataset opleuken met INNOV8iON gerelateerde data
-- Machine Learning GitHub Project
-    - [X] Initiële test: werkt het met onze HANA Instance?
-    - [ ] Aanpassen bestaande Jupyter Notebooks
-        - [ ] Vervangen oude informatie (URLs, verwijzingen naar data in HANA)
-        - [ ] Verwijderen irrelevante opgaven
-        - [ ] Optioneel: alles samenvoegen in één Jupyter Notebook?
-    - [X] Backup maken van database bestanden
-
-## Requirements
-
-The requirements necessary to complete the exercises in this repository, including hardware and software specifications, are outlined in the [prerequisites](prerequisites.md) file.
-
-### Material organization
-
-The material comprises a series of exercises, with each exercise being a Jupyter notebook to be executed.
-
-### Following the exercises
-
-During the CodeJam, you will complete each exercise one at a time. Within each exercise, there are discussion points to be discussed upon with the entire CodeJam class, facilitated by the instructor and marker using the notation "🤓 **Let's discuss**".
-
-If you complete any exercise ahead of others, kindly refrain from moving on to the next one. Instead, take the opportunity to delve deeper into what you've just accomplished and explore additional aspects of the covered subject matter. This approach ensures that we all progress together and can derive additional value through reflection via the questions (and answers).
-
-### The exercises
-
-Here's an overview of the exercises in this CodeJam.
-
-> Make certain that you have successfully completed all the [prerequisites](prerequisites.md)
-
-Setup:
-
-* [Setup SAP Business Application Studio and a dev space](exercises/00-setup/setup-bas.md)
-
-Machine Learning:
-
-1. [Check your setup](exercises/010-check_setup.ipynb)
-1. [(Optional) Basics of HANA DataFrames](exercises/020-dataframes.ipynb)
-1. [Exploratory Data Analysis, or EDA](exercises/030-UnifiedReportDF-EDA.ipynb)
-1. [Training a ML model using Classification](exercises/040-Classification-RDT-FirstFit.ipynb)
-1. [Training a ML model using Train/Test split](exercises/041-Classification-RDT-TrainTestSplit-Implicit.ipynb)
-1. [Preprocessing - Exclude High Cardinality](exercises/050-RDT-Preprocessing-ExcludeHighCardinality.ipynb)
-1. [Preprocessing - Missing Values](exercises/051-RDT-Preprocessing-MissingValues.ipynb)
-1. [Preprocessing - Feature Engineering](exercises/052-RDT-Preprocessing-FE.ipynb)
-1. [Model tuning](exercises/060-RDT-Tuning-Hyperparameters.ipynb)
-1. [Auto ML](exercises/070-RDT-AutoML.ipynb)
-
-## Known Issues
-
-Not known issues as of now.
-
-## Feedback
-
-If you can spare a couple of minutes at the end of the session, please help me improve for next time by giving me some feedback.
-
-Simply use this [Give Feedback](https://github.com/SAP-samples/hana-ml-py-codejam/issues/new?assignees=&labels=feedback&template=session-feedback-template.md&title=Feedback) link to create a special "feedback" issue, and follow the instructions in there.
-
-## How to obtain support
-
-[Create an issue](https://github.com/SAP-samples/hana-ml-py-codejam/issues) in this repository if you find a bug or have questions about the content.
-
-For additional support, [ask a question in SAP Community using `SAP HANA` tag](https://answers.sap.com/questions/ask.html?primaryTagId=73554900100700000996).
+In the practical exercises, you will learn how the Machine Learning process develops using a Python Client for SAP HANA.
 
 ## Further connections and information
 
